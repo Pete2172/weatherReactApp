@@ -6,7 +6,7 @@ Browser blocks the app due to mixed content (weather images are downloaded from 
 ![Example](https://raw.githubusercontent.com/Pete2172/weatherReactApp/master/image.PNG)
 
 # Info:
-Web application was created by using React JS library. It shows the current weather of user's location, detected automatically. Also the app allows user adding other cities from OpenWeatherMap database. \
+Web application was created by using React JS library. It shows the current weather of user's location, detected automatically. Also the app allows user adding other cities from OpenWeatherMap database. Added cities are saved in local storage. User can also remove the chosen cities.\
 \
 The icons used in app come from react-icons package.
 
