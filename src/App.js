@@ -22,7 +22,8 @@ function App() {
 
   useEffect(()=>{
     downloadLocation();
-  }, []);
+  }, [location]);
+  
   // saving list of cities to a local storage
   useEffect(() => {
       localStorage.setItem('cities', JSON.stringify(cities));

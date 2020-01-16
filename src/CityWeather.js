@@ -68,7 +68,7 @@ function CityWeather(props){    /// props.city, props.deleteEventPage, props.loc
                                    {e.main}
                                 </div>
                                 <div className="weatherState__lab">
-                                    <img src={`http://openweathermap.org/img/w/${e.icon}.png`} />
+                                    <img src={`https://openweathermap.org/img/w/${e.icon}.png`} />
                                 </div>
                             </div>
         );});
