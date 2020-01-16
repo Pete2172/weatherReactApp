@@ -1,0 +1,39 @@
+.bar
+{
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+input[type=button]
+{
+    background-color: green;
+    border-color: green;
+    color: white;
+}
+
+input[type=text]
+{
+    width: 60%;
+    text-align: center;
+    border-color: green;
+    border-radius: 3px;
+    margin-right: 4px;
+    color: rgb(14, 36, 10);
+}
+
+input[type=text]:focus
+{
+    background-color: rgb(207, 207, 207);
+}
+
+input[type=button]:hover
+{
+    background-color: rgb(5, 201, 5);
+    color: green;
+    
+}
